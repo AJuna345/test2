@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Car Manufacturers</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .letter-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        .alphabet-label {
+            grid-column: 1 / -1;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #3498db;
+            color: #2c3e50;
+            margin-top: 20px;
+            padding-bottom: 5px;
+        }
+        .car-card {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            text-align: center;
+            font-weight: bold;
+        }
+        .car-card:hover {
+            transform: translateY(-5px);
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Major Global Car Manufacturers</h1>
+        <p>An alphabetical directory of the world's leading automotive brands.</p>
+    </header>
+
+    <div class="letter-section">
+        <div class="alphabet-label">A</div>
+        <div class="car-card">Acura</div>
+        <div class="car-card">Aston Martin</div>
+        <div class="car-card">Audi</div>
+
+        <div class="alphabet-label">B</div>
+        <div class="car-card">Bentley</div>
+        <div class="car-card">BMW</div>
+        <div class="car-card">Bugatti</div>
+
+        <div class="alphabet-label">C</div>
+        <div class="car-card">Cadillac</div>
+        <div class="car-card">Chevrolet</div>
+        <div class="car-card">Chrysler</div>
+        <div class="car-card">Citroën</div>
+
+        <div class="alphabet-label">F</div>
+        <div class="car-card">Ferrari</div>
+        <div class="car-card">Fiat</div>
+        <div class="car-card">Ford</div>
+
+        <div class="alphabet-label">G</div>
+        <div class="car-card">Genesis</div>
+        <div class="car-card">GMC</div>
+
+        <div class="alphabet-label">H</div>
+        <div class="car-card">Honda</div>
+        <div class="car-card">Hyundai</div>
+
+        <div class="alphabet-label">J</div>
+        <div class="car-card">Jaguar</div>
+        <div class="car-card">Jeep</div>
+
+        <div class="alphabet-label">K</div>
+        <div class="car-card">Kia</div>
+        <div class="car-card">Koenigsegg</div>
+
+        <div class="alphabet-label">L</div>
+        <div class="car-card">Lamborghini</div>
+        <div class="car-card">Land Rover</div>
+        <div class="car-card">Lexus</div>
+        <div class="car-card">Lotus</div>
+
+        <div class="alphabet-label">M</div>
+        <div class="car-card">Maserati</div>
+        <div class="car-card">Mazda</div>
+        <div class="car-card">McLaren</div>
+        <div class="car-card">Mercedes-Benz</div>
+        <div class="car-card">Mitsubishi</div>
+
+        <div class="alphabet-label">N</div>
+        <div class="car-card">Nissan</div>
+
+        <div class="alphabet-label">P</div>
+        <div class="car-card">Pagani</div>
+        <div class="car-card">Peugeot</div>
+        <div class="car-card">Porsche</div>
+
+        <div class="alphabet-label">R</div>
+        <div class="car-card">Ram</div>
+        <div class="car-card">Renault</div>
+        <div class="car-card">Rolls-Royce</div>
+
+        <div class="alphabet-label">S</div>
+        <div class="car-card">Subaru</div>
+        <div class="car-card">Suzuki</div>
+
+        <div class="alphabet-label">T</div>
+        <div class="car-card">Tesla</div>
+        <div class="car-card">Toyota</div>
+
+        <div class="alphabet-label">V</div>
+        <div class="car-card">Volkswagen</div>
+        <div class="car-card">Volvo</div>
+    </div>
+</div>
+
+</body>
+</html>
